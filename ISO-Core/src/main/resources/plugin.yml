@@ -1,0 +1,79 @@
+main: net.isoverse.isocore.ISOCore
+name: ISOCore
+version: 0.2.0
+description: main plugin for all isoVerse moderation
+api-version: 1.18
+depend: []
+commands:
+  administrator:
+    aliases: [admin, acp]
+  moderator:
+    aliases: [mod, mcp, helper, hcp]
+  developer:
+    aliases: [dev, dcp]
+  builder:
+    aliases: [bcp]
+  rawglobal:
+    usage: /<command>
+  commandexecute:
+    usage: /<command>
+  consoleexecute:
+    usage: /<command>
+  ticket:
+    usage: /<command>
+  nickname:
+    aliases: nick
+  ignore:
+    aliases: [block, b]
+  message:
+    aliases: [msg, m, tell]
+  reply:
+    aliases: [respond, r]
+  group:
+    aliases: [groups, g]
+  vanish:
+    aliases: [van, glamifyhide]
+  queue:
+    aliases: [que, qu, imboredletshelpsomeone]
+  mail:
+    aliases: [glamspostalservice, gps]
+  sendmail:
+    aliases: [glamspostmen, gpm]
+  blind:
+    aliases: [blinds, blinded, glasses]
+  cry:
+    aliases: [crying, cries, sob]
+  eyeroll:
+    aliases: [rolleyes, roll, eyes, reyes, re, rolls, rollseyes, rolleye, rollseye]
+  fly:
+    aliases: [flight]
+  frost:
+    aliases: [freeze, shiver]
+  god:
+    aliases: [invincible, godmode]
+  heal:
+    aliases: [health, feed, hunger, healing]
+  lol:
+    aliases: [laugh, haha, lmao, lmfao]
+  luck:
+    aliases: [lucky]
+  moneybooster:
+    aliases: [moneyboost]
+  rocket:
+    aliases: [launch, liftoff, takeoff, rockets, joshisoutofthisworld]
+  slap:
+    aliases: [laps, punch, hit]
+  smite:
+    aliases: [strike, lightning]
+  umbrella:
+    aliases: [rain, weather, clouds, sky, snow]
+  xpbooster:
+    aliases: [xpbooster]
+  setlevel:
+    aliases: [setlev]
+  addxp:
+    aliases: [givexp]
+  xp:
+    aliases: [level, points, exp, experience, levels, xps, point]
+  inappropriatename:
+    aliases: [inapname, blockname, banname]

@@ -1,0 +1,6 @@
+name: ISOMinigames
+version: '${project.version}'
+main: net.isoverse.isominigames.ISOMinigames
+api-version: 1.19
+authors: [ Glamify ]
+description: isoVerse minigame system

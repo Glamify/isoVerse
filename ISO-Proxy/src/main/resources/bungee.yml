@@ -1,0 +1,4 @@
+name: ISOProxy
+version: '${project.version}'
+main: net.isoverse.isoproxy.ISOProxy
+description: isoProxy management system

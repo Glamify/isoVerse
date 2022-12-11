@@ -1,0 +1,6 @@
+DISCORD_TOKEN: "input your discord bot's client token"
+TICKET_CATEGORY: "input the category id for ticket creation"
+GUILD_ID: "input the id of your discord server"
+CLOSED_TICKET_CATEGORY: "input the category id for closed tickets"
+SERVER: "input the server name here"
+
